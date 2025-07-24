@@ -27,6 +27,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ШкалаБонуснойПрограммы.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ШкалаБонуснойПрограммы.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>InformationRegister.АктуальнаяШкалаБонуснойПрограммы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -63,6 +65,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="fa5ea4ee-e5c1-45ae-aa38-4a2c9fda2d5e">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="99dae0fe-6cb8-4da8-a194-6e06c4460152">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="87b7847f-c967-4ca7-83d5-9eb6eb8c7cf3">
     <producedTypes>
       <objectType typeId="b4ed48d2-98ee-4ba9-90b6-8a0b30266d91" valueTypeId="e29ebafb-3b7e-4bd1-aa27-6b8d80cff4aa"/>
