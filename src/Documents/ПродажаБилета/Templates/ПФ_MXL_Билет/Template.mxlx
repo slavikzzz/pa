@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>2</size>
+		<size>5</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -157,7 +157,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма документа:</v8:content>
+							<v8:content>Сумма:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -165,14 +165,45 @@
 			<c>
 				<c>
 					<f>13</f>
+					<parameter>Сумма</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>7</index>
+		<indexTo>8</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма документа:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>14</f>
 					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<height>7</height>
-	<vgRows>7</vgRows>
+	<height>11</height>
+	<vgRows>11</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -189,11 +220,21 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Шапка</name>
+		<name>ОписаниеТовара</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
 			<endRow>6</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Подвал</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>8</beginRow>
+			<endRow>10</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -272,5 +313,8 @@
 			</v8:item>
 		</format>
 		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<fillType>Parameter</fillType>
 	</format>
 </document>

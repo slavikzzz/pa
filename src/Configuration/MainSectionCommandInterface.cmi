@@ -5,5 +5,9 @@
       <group>ActionsPanelTools</group>
       <commands>DataProcessor.РабочееМестоКассира.StandardCommand.Open</commands>
     </placementFragments>
+    <placementFragments>
+      <group>ActionsPanelReports</group>
+      <commands>CommonCommand.ГлавныеОтчеты</commands>
+    </placementFragments>
   </commandsPlacement>
 </cmi:CommandInterface>

@@ -274,6 +274,17 @@
     </attributes>
   </tabularSections>
   <templates uuid="e505992e-e07e-4a1b-8d5d-965da73e5864">
-    <name>Билет</name>
+    <name>ПФ_MXL_Билет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билет</value>
+    </synonym>
+  </templates>
+  <templates uuid="b254564e-7175-4282-ba5f-80bb107cb233">
+    <name>ПФ_MXL_Реклама</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реклама</value>
+    </synonym>
   </templates>
 </mdclass:Document>
