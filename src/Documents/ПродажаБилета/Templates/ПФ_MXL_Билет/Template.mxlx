@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>5</size>
+		<size>6</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -201,14 +201,34 @@
 			</c>
 		</row>
 	</rowsItem>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>1</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>12</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>20</endRow>
+		<endRowOffset>18</endRowOffset>
+		<beginColumn>2</beginColumn>
+		<beginColumnOffset>114</beginColumnOffset>
+		<endColumn>5</endColumn>
+		<endColumnOffset>30</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
 	<templateMode>true</templateMode>
-	<height>11</height>
-	<vgRows>11</vgRows>
+	<height>24</height>
+	<vgRows>24</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
 		<w>1</w>
 	</merge>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>qr</name>
+		<drawingID>1</drawingID>
+	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
 		<area>
@@ -234,7 +254,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>8</beginRow>
-			<endRow>10</endRow>
+			<endRow>21</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -317,4 +337,8 @@
 	<format>
 		<fillType>Parameter</fillType>
 	</format>
+	<picture>
+		<index>0</index>
+		<picture t="false" ref="v8ui:МестоДляQRКода"/>
+	</picture>
 </document>
